@@ -1,6 +1,10 @@
 * {
-  border: 1px solid red;
   font-family: "Roboto", serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -39,6 +43,7 @@
   display: flex;
   background-color: #1F2937;
   flex-direction: row;
+  padding-bottom: 50px;
 }
 
 .hero-container {
@@ -77,20 +82,14 @@
 .button {
   background-color: #3882F6;
   color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 40px;
-  padding-left: 40px;
-  margin-top: 5px;
-  margin-left: 40px;
-  margin-bottom: 20px;
+  padding: 8px 40px;
+  margin: 5px 0 20px 40px;
   font-size: 20px;
-  flex: 1 1 auto;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 6px;
+  border: none;
+  cursor: pointer;
 }
+
 
 .hero-image-container {
   flex: 1 1 auto;
@@ -140,7 +139,7 @@
 
 .information-inner-container {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
@@ -151,15 +150,18 @@
   width: auto;
   border-radius: 5px;
 }
+
 .image-item {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 20px;
 }
 
 .image-text {
   margin-bottom: 20px;
   justify-content: center;
+  text-align: center;
 }
 
 .quote-container {
@@ -192,4 +194,69 @@
   font-weight: 900;
 }
 
+.action {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  background-color: #3882F6;
+  border-radius: 5px;
+  margin: 80px 150px;
+  padding: 40px 40px;
+}
 
+.action-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.action-call {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.action-call-main-text {
+  font-weight: 900;
+  color: white;
+  margin-bottom: 1px;
+}
+
+.action-call-secondary-text {
+  margin-top: 1px;
+  color: white;
+}
+
+.action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.action-sign-up {
+  color: white;
+  border: 1px solid white;
+  background-color: #3882F6;
+  border-radius: 5px;
+  padding: 6px 30px;
+}
+
+.footer {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+.footer-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-text {
+  color: white;
+}
