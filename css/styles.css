@@ -111,16 +111,83 @@
 .information {
   flex: 1 1 auto;
   display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .information-container {
   flex: 1 1 auto;
   display: flex;
-  align-items: center;
 }
 
 .information-main-text {
   flex: 1 1 auto;
   display: flex;
   justify-content: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
 }
+
+.information-image-container { 
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+.information-inner-container {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.information-inner-container .information-image {
+  height: 200px;
+  width: auto;
+  border-radius: 5px;
+}
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-text {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.quote-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 100px;
+  background-color: #E5E7EB
+}
+
+.quote-window {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-source {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+}
+
+
